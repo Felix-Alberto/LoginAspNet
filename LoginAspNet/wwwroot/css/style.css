@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
-   
 }
-body{
-    
+html, body {
+    /* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');*/
+    background-image: url('../img/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section {
     display: flex;
@@ -13,13 +15,118 @@ section {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: url("~/img/background.jpeg")
 }
-.form-box{
+
+.form-box {
+    position: relative;
     width: 400px;
     height: 450px;
-    background: red;
-    
-    justify-content: center;
-    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter:blur(15px);
+    padding: 33px;
+   
 }
+
+ h2 {
+        font-size: 2em;
+        color: white;
+        text-align: center;
+ }
+
+.form-outline {
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+    .form-outline label {
+        position: absolute;
+        margin-top: 7%;
+        left: 33px;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 1em;
+        pointer-events: none;
+        transition: .5s;
+    }
+input:focus ~ label,
+input:valid ~ label {
+    margin-top: -.5px;
+}
+.form-outline input {
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+
+
+
+.form-outline ion-icon {
+    position: absolute;
+    right: 54px;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: -26px;
+    margin-top: auto;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+    .forget label, .col a {
+        color: #fff;
+        
+    }
+        .col a {
+            text-decoration: none;
+        }
+         .col a:hover {
+            text-decoration: underline;
+        }
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin-top: 27px;
+}
+    .register a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .register a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
