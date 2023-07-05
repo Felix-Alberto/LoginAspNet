@@ -4,7 +4,7 @@ namespace LoginAspNet.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult Login()
+        public IActionResult Index()
         {
             return View();
         }
