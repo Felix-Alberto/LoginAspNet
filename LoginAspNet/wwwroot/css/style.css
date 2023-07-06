@@ -4,7 +4,6 @@
     font-family: 'poppins', sans-serif;
 }
 html, body {
-    /* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');*/
     background-image: url('../img/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
