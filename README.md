@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
-- Visual Studio 
+- Visual Studio 2022
 - Git e Github
 
 ## 💻 Projeto
